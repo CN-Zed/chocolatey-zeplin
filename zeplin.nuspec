@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>zeplin</id>
+    <title>Zeplin for Windows</title>
+    <version>1.0.0</version>
+    <authors>Zeplin, Inc.</authors>
+    <owners>Zeplin, Inc.</owners>
+    <summary>Zeplin for Windows</summary>
+    <description>Build pixel perfect apps in peace —— Design hand-off has never been easier. Generate styleguides and resources, automatically.</description>
+    <projectUrl>https://zeplin.io/</projectUrl>
+    <licenseUrl>https://zeplin.io/terms.html</licenseUrl>
+    <iconUrl>https://raw.githubusercontent.com/CN-Zed/chocolatey-zeplin/master/icZeplin.svg</iconUrl>
+    <tags>zeplin</tags>
+    <copyright>Zeplin, Inc.</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <packageSourceUrl>https://github.com/CN-Zed/chocolatey-zeplin</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
