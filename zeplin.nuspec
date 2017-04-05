@@ -3,9 +3,9 @@
   <metadata>
     <id>zeplin</id>
     <title>Zeplin for Windows</title>
-    <version>1.0.0</version>
+    <version>0.26.0</version>
     <authors>Zeplin, Inc.</authors>
-    <owners>Zeplin, Inc.</owners>
+    <owners>zed</owners>
     <summary>Zeplin for Windows</summary>
     <description>Build pixel perfect apps in peace —— Design hand-off has never been easier. Generate styleguides and resources, automatically.</description>
     <projectUrl>https://zeplin.io/</projectUrl>
