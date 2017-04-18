@@ -4,8 +4,8 @@ $silentArgs = "-s"
 $url = 'https://zpl.io/download-windows-32'
 $url64 = 'https://zpl.io/download-windows-64'
 $checksumType = 'sha256';
-$checksum32 = 'f75cad82e8fd2715b98fb9bfe4bc97ba72181e656b568d9788dab472361823fd';
-$checksum64 = 'cee098fd4f980c6c2d2ac2df5f46e13288f03d50cd24ea9ae6b4d13cae949655';
+$checksum32 = 'ecac8da3abb782e20d4c29ccd6814839c5a5de073700ea30d80486ae37b36707';
+$checksum64 = 'e39ba92256b11d5e35440d526eac0c128d4008bc8f522c2a7c6fe727ddbbbf4a';
 $checksum = '';
 if ([Environment]::Is64BitOperatingSystem) {
     Write-Output 'Installing 64 bit version.';
