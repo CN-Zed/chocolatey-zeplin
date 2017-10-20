@@ -1,11 +1,11 @@
 $packageName = "zeplin"
 $fileType = "exe"
 $silentArgs = "-s"
-$url = 'https://pkg.zeplin.io/windows/0.31.0/ia32/zeplin-installer-ia32.exe'
-$url64 = 'https://pkg.zeplin.io/windows/0.31.0/x64/zeplin-installer-x64.exe'
+$url = 'https://pkg.zeplin.io/windows/1.0.0/ia32/zeplin-installer-ia32.exe'
+$url64 = 'https://pkg.zeplin.io/windows/1.0.0/x64/zeplin-installer-x64.exe'
 $checksumType = 'sha256';
-$checksum32 = 'db3f6fc09ad802ae85bcfd9ff7572a7388cf2258056e238a8e96ea5e26e2149b';
-$checksum64 = '10a619da864ab450e59e8271d57230406da3c5641a2a459efcd86d33713a8ba5';
+$checksum32 = '3dbef9c952ea6e320887fd5cda627962e93b55857ca77d172eb2948d70d8aee9';
+$checksum64 = 'da86d427cd593523dea7399cc914f6fb4bc8fda0aab1082eb0899260f12d33f3';
 $checksum = '';
 if ([Environment]::Is64BitOperatingSystem -and !$env:chocolateyForceX86 ) {
     Write-Output 'Installing 64 bit version.';
