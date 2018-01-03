@@ -1,1 +1,1 @@
-"# Chocolatey-Zeplin" 
+# Chocolatey-Zeplin
