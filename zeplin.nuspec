@@ -3,18 +3,18 @@
   <metadata>
     <id>zeplin</id>
     <title>Zeplin for Windows</title>
-    <version>1.4.0</version>
+    <version>2.4.0</version>
     <authors>Zeplin, Inc.</authors>
     <owners>zed</owners>
     <summary>Zeplin for Windows</summary>
     <description>Build pixel perfect apps in peace —— Design hand-off has never been easier. Generate styleguides and resources, automatically.</description>
     <projectUrl>https://zeplin.io/</projectUrl>
     <licenseUrl>https://zeplin.io/terms.html</licenseUrl>
-    <iconUrl>https://raw.githubusercontent.com/CN-Zed/chocolatey-zeplin/master/icZeplin.svg</iconUrl>
+    <iconUrl>https://ghcdn.rawgit.org/ZeddG93/chocolatey-zeplin/master/icZeplin.svg</iconUrl>
     <tags>zeplin</tags>
     <copyright>Zeplin, Inc.</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <packageSourceUrl>https://github.com/CN-Zed/chocolatey-zeplin</packageSourceUrl>
+    <packageSourceUrl>https://github.com/ZeddG93/chocolatey-zeplin</packageSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
